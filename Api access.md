@@ -16,7 +16,11 @@
 6. Discord: Discord API (https://discord.com/developers/docs/intro)
 
 7. Microsoft Teams: Microsoft Bot Framework (https://dev.botframework.com/)
+
 8. Google Chat: Google Chat API (https://developers.google.com/chat)
+
+9. Twitter: Twitter API Version 1 and 2 (https://developer.twitter.com/en/docs/api-reference-index#twitter-api-standard)
+
 ## Phone Messaging (SMS)
 
 1. Twilio SMS API (https://www.twilio.com/docs/quickstart/sms)
