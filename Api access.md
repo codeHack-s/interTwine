@@ -3,12 +3,18 @@
 
 ## Chat Platforms
 
-1. Facebook Messenger: Facebook Messenger Platform API (https://developers.facebook.com/docs/messenger-platform)
-2. WhatsApp: WhatsApp Business API (https://www.whatsapp.com/business/api)
+1. Facebook Messenger: Facebook Messenger Platform API (https://developers.facebook.com/docs/messenger-platform) sam
+
+2. WhatsApp: WhatsApp Business API (https://www.whatsapp.com/business/api) 
+
 3. Instagram: Instagram Messaging API (https://developers.facebook.com/docs/messenger-platform/instagram/features)
-4. Telegram: Telegram Bot API (https://core.telegram.org/bots/api)
+
+4. Telegram: Telegram Bot API (https://core.telegram.org/bots/api) Gracie
+
 5. Slack: Slack Web API (https://api.slack.com/web) and Real Time Messaging API (https://api.slack.com/rtm)
+
 6. Discord: Discord API (https://discord.com/developers/docs/intro)
+
 7. Microsoft Teams: Microsoft Bot Framework (https://dev.botframework.com/)
 8. Google Chat: Google Chat API (https://developers.google.com/chat)
 ## Phone Messaging (SMS)
