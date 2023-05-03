@@ -43,8 +43,10 @@
 # Each Api Access Explained
 
 
-
+---
 # Facebook Messenger
+
+<details> <summary> Click here! </summary>
 
 To use the Facebook Messenger Platform API, you need to follow a series of steps to create and configure a Facebook App and Page. This API enables you to send and receive messages, manage conversations, and handle user interactions with your Messenger bot. Here's a step-by-step guide on how to use the Facebook Messenger Platform API:
 
@@ -70,6 +72,7 @@ Once your webhook is set up, subscribe your app to the Facebook Page by clicking
 To send a message, use the Messenger Send API (https://developers.facebook.com/docs/messenger-platform/reference/send-api). You'll need to make a POST request to https://graph.facebook.com/v13.0/me/messages with the Page Access Token and message payload.
 
 Example of a simple text message payload:
+```
 {
   "recipient": {
     "id": "<USER_ID>"
@@ -78,6 +81,7 @@ Example of a simple text message payload:
     "text": "Hello, user!"
   }
 }
+```
 Replace <USER_ID> with the ID of the user you want to send the message to.
 
 To receive messages, your webhook will be called whenever there's an incoming event (e.g., a message or a postback). Parse the received JSON data and handle the event accordingly in your application.
@@ -104,10 +108,12 @@ Be aware of rate limiting imposed by Facebook to prevent abuse of the API. Make 
 Handle errors gracefully in your application. The Messenger Platform API will return error codes and messages when a request fails. Consult the documentation (https://developers.facebook.com/docs/graph-api/using-graph-api/error-handling) for information on handling errors.
 
 Remember to adhere to Facebook's Platform Policy (https://developers.facebook.com/policy) and the Messenger Platform's guidelines (https://developers.facebook.com/docs/messenger-platform/policy). Always consult the official documentation for the most up-to-date information and best practices.
-
-
+</details>
+  
+---
+  
 # Whatsapp Business
-
+<details> <summary> Click here! </summary>
 To use the WhatsApp Business API, you need to follow a series of steps to set up your environment and configure your WhatsApp Business Account. The API enables you to send and receive messages, manage contacts, and handle various message types. Here's a step-by-step guide on how to use the WhatsApp Business API:
 
 ## Request Access:
@@ -158,10 +164,10 @@ As your user base grows, you may need to optimize and scale your application to 
 
 Remember to consult the official WhatsApp Business API documentation (https://developers.facebook.com/docs/whatsapp) for the most up-to-date information and best practices. As each platform has its terms of service and API policies, ensure that you adhere to these guidelines and maintain compliance with the platform's requirements.
 
-
+  </details>
 
 # Instagram Messaging API:
-
+<details> <summary> Clickhere! </summary>
 ## Prerequisites: 
 Ensure that your Instagram Business Account or Creator Account is linked to a Facebook Page, and you have an existing Facebook App.
 
@@ -202,10 +208,11 @@ The Telegram Bot API supports various message types and user interactions, such 
 Test your bot by sending messages to it on Telegram. When ready, deploy your application and share the bot with users.
 
 Always consult the official documentation for the most up-to-date information and best practices. Adhere to the terms of service and API policies for each platform to ensure compliance.
-
+  </details>
 
 # Slack Web API:
-
+<details> <summary> Click here! </summary>
+  
 ## Create a Slack App: 
 Go to the Slack API page (https://api.slack.com/apps) and create a new Slack App for your workspace.
 
@@ -231,9 +238,12 @@ Use the access token obtained earlier to authenticate and connect to the WebSock
 
 ## Send and Receive Messages: 
 Use the WebSocket connection to send and receive messages in real-time. The API supports various message types and events.
-
+  </details>
+  
 # Discord API:
-
+  
+<details> <summary> Click here! </summary>
+  
 ## Create a Discord Application: 
 Go to the Discord Developer Portal (https://discord.com/developers/applications) and create a new application.
 
@@ -253,10 +263,12 @@ Use the bot token obtained earlier to authenticate and connect to the Discord AP
 Use the Discord API to send and receive messages in text channels, DMs, or group DMs. The API also supports various message types, such as rich embeds, attachments, and reactions.
 
 Always consult the official documentation for the most up-to-date information and best practices. Adhere to the terms of service and API policies for each platform to ensure compliance.
-
+  </details>
 
 # Microsoft Bot Framework:
-
+  
+<details> <summary> Click here! </summary>
+  
 ## Create a Bot:
 Register a new bot using the Microsoft Bot Framework portal (https://dev.botframework.com/bots/new).
 
@@ -277,9 +289,12 @@ Deploy your bot to a cloud platform like Microsoft Azure (https://docs.microsoft
 
 ## Register the Bot in Microsoft Teams:
 Follow the instructions to add your bot to Microsoft Teams (https://docs.microsoft.com/en-us/microsoftteams/platform/bots/how-to/add-a-bot-to-teams).
-
+  </details>
+  
 # Google Chat API:
-
+  
+<details> <summary> Click here! </summary>
+  
 ## Create a Google Cloud Platform Project:
 Create a new project in the Google Cloud Platform Console (https://console.cloud.google.com/).
 
@@ -305,10 +320,12 @@ Deploy your bot to a hosting platform, such as Google Cloud (https://cloud.googl
 Follow the instructions to add your bot to Google Chat (https://developers.google.com/chat/how-tos/bots-publish).
 
 Always consult the official documentation for the most up-to-date information and best practices. Adhere to the terms of service and API policies for each platform to ensure compliance.
-
+  </details>
 
 # Twilio SMS API:
-
+  
+<details> <summary> Click here! </summary>
+  
 ## Create a Twilio Account: 
 Sign up for a Twilio account (https://www.twilio.com/try-twilio).
 
@@ -326,9 +343,12 @@ Use the Twilio Helper Library to send SMS messages by making a POST request to t
 
 ## Receive SMS: 
 To receive SMS messages, set up a webhook on your server. Configure the webhook URL in the Twilio Console (https://www.twilio.com/console/phone-numbers/incoming) for the corresponding phone number.
-
+</details>
+  
 # Plivo SMS API:
 
+<details> <summary> Click here! </summary>
+    
 ## Create a Plivo Account:
 Sign up for a Plivo account (https://console.plivo.com/accounts/login/).
 
@@ -348,9 +368,13 @@ Use the Plivo Helper Library to send SMS messages by making a POST request to th
 To receive SMS messages, set up a webhook on your server. Configure the webhook URL in the Plivo Console (https://console.plivo.com/phone-numbers/) for the corresponding phone number.
 
 Always consult the official documentation for the most up-to-date information and best practices. Adhere to the terms of service and API policies for each platform to ensure compliance.
-
+  
+  </details>
+  
 # IMAP (Internet Message Access Protocol):
 
+  <details> <summary> Click here! </summary>
+    
 ## Choose an IMAP library: 
 Select a library or module for your preferred programming language that supports IMAP, such as Python's imaplib (https://docs.python.org/3/library/imaplib.html).
 
@@ -371,9 +395,13 @@ Perform actions like marking messages as read, moving messages between folders, 
 
 ## Close the connection: 
 Close the connection to the mail server after completing your tasks.
-
+    
+</details>
+  
 # POP3 (Post Office Protocol 3):
-
+  
+<details> <summary> Click here! </summary>
+  
 ## Choose a POP3 library: 
 Select a library or module for your preferred programming language that supports POP3, such as Python's poplib (https://docs.python.org/3/library/poplib.html).
 
@@ -414,9 +442,11 @@ Close the connection to the mail server after completing your tasks.
 
 Always consult the official documentation for the most up-to-date information and best practices. Additionally, follow the email provider's guidelines for using their mail servers to ensure compliance.
 
+</details>
 
-
-Zendesk API:
+# Zendesk API:
+  
+  <details> <summary> Click here! </summary>
 
 Create a Zendesk Account: Sign up for a Zendesk account (https://www.zendesk.com/register).
 
@@ -427,9 +457,13 @@ Choose a Zendesk API library: Select a library or module for your preferred prog
 Authenticate: Use your Zendesk domain, email, and API token to authenticate requests to the Zendesk API.
 
 Send and Manage Support Requests: Use the Zendesk API (https://developer.zendesk.com/api-reference/) to create, update, and manage support tickets, users, and other resources.
-
+    
+  </details>
+  
 # Freshdesk API:
 
+  <details> <summary> Click here! </summary>
+    
 1. Create a Freshdesk Account: Sign up for a Freshdesk account (https://freshdesk.com/signup).
 
 2. Get API Key: Find your API key in your Freshdesk profile settings.
@@ -439,9 +473,12 @@ Send and Manage Support Requests: Use the Zendesk API (https://developer.zendesk
 4. Authenticate: Use your Freshdesk domain and API key to authenticate requests to the Freshdesk API.
 
 5. Send and Manage Support Requests: Use the Freshdesk API (https://developers.freshdesk.com/api/) to create, update, and manage support tickets, users, and other resources.
+  </details>
 
 # Intercom API:
 
+<details> <summary> Click here! </summary>
+    
 1. Create an Intercom Account: Sign up for an Intercom account (https://www.intercom.com/try-for-free).
 
 2. Generate Access Token: Go to the Intercom Developer Hub, navigate to the "Your apps" section, and create a new app. Generate an access token from the app settings.
@@ -453,15 +490,17 @@ Send and Manage Support Requests: Use the Zendesk API (https://developer.zendesk
 6. Send and Manage Support Requests: Use the Intercom API (https://developers.intercom.com/intercom-api-reference) to create, update, and manage support conversations, users, and other resources.
 
 Always consult the official documentation for the most up-to-date information and best practices. Adhere to the terms of service and API policies for each platform to ensure compliance.
-
+  
+  </details>
+  
 # Suggested Languages
 
 ## Facebook Messenger Platform API:
 
 JavaScript (Node.js)
-Python
-Ruby
-PHP
+- Python
+- Ruby
+- PHP
 ## WhatsApp Business API:
 
 1. JavaScript (Node.js)
