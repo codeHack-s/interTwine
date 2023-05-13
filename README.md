@@ -1,4 +1,4 @@
-# Intertwine by CodeHacks
+# Intertwine by CodeHacks™
 Intertwine is a cross-platform communication app developed by CodeHacks that simplifies your social media, messaging, and support management experience. By connecting various platforms such as Facebook, WhatsApp, Instagram, Twitter, email services, and support management tools, Intertwine offers a unified and seamless interface for managing all your online interactions.
 
 ## How Intertwine Works
